@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Voronoi</title>
+    <script src="libraries/p5.js" type="text/javascript"></script>
+
+    <script src="libraries/p5.dom.js" type="text/javascript"></script>
+    <script src="libraries/p5.sound.js" type="text/javascript"></script>
+
+    <script src="sketch.js" type="text/javascript"></script>
+    <script src="area.js" type="text/javascript"></script>
+    <script src="cell.js" type="text/javascript"></script>
+
+    <style> 
+      body {padding: 0; margin: 0; font-family: consolas;} 
+      canvas {vertical-align: top; border:2px black solid; border-radius: 4px;padding: 10px; margin:2px;} 
+      div#controls {padding: 10px; margin:5px; border:2px black solid; border-radius: 4px; background-color: #ccf;}
+      div#container{text-align: center;}
+      button {border-radius: 4px; font-family: consolas; font-weight: bold; padding: 3px;}
+    </style>
+  </head>
+  <body>
+  <div id="controls"><p>
+    select a distance function and validate to see the difference !<br/>
+  </p></div><br/>
+  <div id="container"></div>
+
+  </body>
+</html>
